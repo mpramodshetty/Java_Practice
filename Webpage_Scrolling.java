@@ -23,7 +23,7 @@ public class Webpage_Scrolling {
 		driver.findElement(By.id("lst-ib")).sendKeys("java");
 		driver.findElement(By.id("lst-ib")).sendKeys(Keys.RETURN);
 		
-		Thread.sleep(2000);
+		Thread.sleep(2000);//wait for 2 seconds
 		//Actions actions = new Actions(driver);
 		//actions.keyDown(Keys.CONTROL).sendKeys(Keys.END).perform();
 		
